@@ -42,6 +42,7 @@ public class EmployeeController {
 	@RequestMapping("/")
 	public ModelAndView getMeth()
 {
+		System.out.println("Accessing / ");
 		return new ModelAndView("index");
 }
 
