@@ -34,6 +34,7 @@
 		<dependency org="org.joda" name="joda-convert" rev="2.2.1" conf="compile->default"/>
 		<dependency org="com.google.code.findbugs" name="jsr305" rev="3.0.2" conf="compile->default"/>
 		<dependency org = "org.apache.tomcat" name="tomcat-jasper" rev="9.0.33" conf="compile->default"/>
+		<dependency org = "javax.ws.rs" name="javax.ws.rs-api" rev="2.1.1" conf="compile->default"/>
 		
 	
 	
