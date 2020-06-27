@@ -154,7 +154,7 @@
 					                <include name="**/*.xml" />
 					            </fileset>
 					        </copy>   
-		<javac destdir="${web.classes.dir}" srcdir="${src.dir}"   source="${jdk.version}" target="${jdk.version}" debug="true" includeantruntime="false" >
+		<javac destdir="${web.classes.dir}" srcdir="${src.dir}" fork="yes"  executable="C:/Program Files/Java/jdk1.8.0_144/bin/javac"  source="${jdk.version}" target="${jdk.version}" debug="true" includeantruntime="false" >
 			
 			
 
@@ -166,7 +166,7 @@
 		</target>
 	<target name="compile-test" depends="compile" description="compile test code">
 			<mkdir dir="${test.classes}" />
-			<javac destdir="${test.classes}" srcdir="${src.test}"   source="${jdk.version}" target="${jdk.version}" debug="true" includeantruntime="false"  >
+			<javac destdir="${test.classes}" srcdir="${src.test}"  fork="yes"  executable="C:/Program Files/Java/jdk1.8.0_144/bin/javac" source="${jdk.version}" target="${jdk.version}" debug="true" includeantruntime="false"  >
 				
 				
 
