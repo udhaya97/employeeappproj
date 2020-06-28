@@ -66,7 +66,7 @@
  This application is mainly used to perform the operations like Add Employee,Update Employee,Delete Employee 
  and reading all the employees from database.Only admin can do the above operations.
  first admin has to login,then he can see the list of employees if not he has to add employee to database.Then he can modify
- the data and he can delete the data.After these operations done he can logout.
+ the data and he can delete the data.After these operations done he can logout..
  
 
 </p>
