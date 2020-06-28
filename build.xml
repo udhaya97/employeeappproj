@@ -2,7 +2,7 @@
 
 
 	<!-- Project Structure -->
-	<property name="jdk.version" value="1.8" />
+	<property name="jdk.version" value="1.8" /
 	<property name="projectName" value="WebProject" />
 	<property name="src.dir" location="src" />
 	<property name="resources.dir" location="resources" />
